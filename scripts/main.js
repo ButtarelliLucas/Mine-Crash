@@ -8,7 +8,7 @@ import { GLTFLoader} from 'three/addons/loaders/GLTFLoader.js'
 
 //models
 
-const espadasGLTF = new GLTFLoader().setPath('public/models/espadas/');
+const espadasGLTF = new GLTFLoader().setPath('public/espadas/');
 espadasGLTF.load('scene.gltf', (gltf) => {
     const mesh = gltf.scene;
     gltf.scene.scale.set(0.02, 0.02, 0.02
@@ -34,7 +34,7 @@ pjGLTF.load('scene.gltf', (gltf) => {
     const mesh = gltf.scene;
     gltf.scene.scale.set(1, 1, 1
     ); 
-    mesh.position.set(36.5, 12, 7)
+    mesh.position.set(36, 12, 7)
 
     scene.add(mesh)
 })
@@ -127,6 +127,6 @@ window.addEventListener('resize', () => {
 )
 
 setupLights();
-// createUI(world, player);
+createUI(world, player);
 animate();
 
