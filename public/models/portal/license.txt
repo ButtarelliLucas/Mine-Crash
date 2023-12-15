@@ -1,0 +1,11 @@
+Model Information:
+* title:	minecraft nether portal
+* source:	https://sketchfab.com/3d-models/minecraft-nether-portal-fcc8ee6666314e54a5a77e407217d9a0
+* author:	koolkid33 (https://sketchfab.com/ftena1)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "minecraft nether portal" (https://sketchfab.com/3d-models/minecraft-nether-portal-fcc8ee6666314e54a5a77e407217d9a0) by koolkid33 (https://sketchfab.com/ftena1) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

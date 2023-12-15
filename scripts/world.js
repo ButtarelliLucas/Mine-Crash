@@ -25,7 +25,7 @@ params = {
     }
 };
 
-    constructor(size = { width: 128, height: 16 }) {
+    constructor(size = { width: 64, height: 16 }) {
         super();
         this.size = size;
     }

@@ -89,9 +89,9 @@ export class Player {
 
     toString() {
         let srt = '';
-        srt += `X: ${this.position.x.toFixed(3)}`;
-        srt += `Y: ${this.position.y.toFixed(3)}`;
-        srt += `Z: ${this.position.z.toFixed(3)}`;
+        srt += `X:${this.position.x.toFixed(3)} `;
+        srt += `Y:${this.position.y.toFixed(3)} `;
+        srt += `Z:${this.position.z.toFixed(3)}`;
         return srt;
     }
 

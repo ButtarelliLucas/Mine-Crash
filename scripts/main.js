@@ -4,6 +4,40 @@ import Stats from 'three/examples/jsm/libs/stats.module.js'
 import { World } from './world.js';
 import { createUI } from './ui.js';
 import { Player } from './player.js';
+import { GLTFLoader} from 'three/addons/loaders/GLTFLoader.js'
+
+//models
+
+const espadasGLTF = new GLTFLoader().setPath('public/models/espadas/');
+espadasGLTF.load('scene.gltf', (gltf) => {
+    const mesh = gltf.scene;
+    gltf.scene.scale.set(0.02, 0.02, 0.02
+    ); 
+    mesh.position.set(33, 1, 27)
+
+    scene.add(mesh)
+})
+
+const portalGLTF = new GLTFLoader().setPath('public/models/portal/');
+portalGLTF.load('scene.gltf', (gltf) => {
+    const mesh = gltf.scene;
+
+    gltf.scene.scale.set(0.5, 0.5, 0.5
+    ); 
+    mesh.position.set(15.5, 9, 11.5)
+
+    scene.add(mesh)
+})
+
+const pjGLTF = new GLTFLoader().setPath('public/models/pj/');
+pjGLTF.load('scene.gltf', (gltf) => {
+    const mesh = gltf.scene;
+    gltf.scene.scale.set(1, 1, 1
+    ); 
+    mesh.position.set(36.5, 12, 7)
+
+    scene.add(mesh)
+})
 
 const stats = new Stats()
 document.body.append(stats.dom)
@@ -12,6 +46,7 @@ document.body.append(stats.dom)
 const renderer = new THREE.WebGLRenderer(
     { antialias: true } 
 );
+renderer.outputColorSpace = THREE.SRGBColorSpace;
 renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setClearColor(0x80a0e0)
@@ -92,6 +127,6 @@ window.addEventListener('resize', () => {
 )
 
 setupLights();
-createUI(world, player);
+// createUI(world, player);
 animate();
 

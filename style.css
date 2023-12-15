@@ -11,3 +11,10 @@ body{
   color: white;
   margin: 8px;
 }
+
+#joystick-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}

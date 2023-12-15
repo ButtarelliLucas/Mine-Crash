@@ -1,0 +1,11 @@
+Model Information:
+* title:	Minecraft Player Rigged
+* source:	https://sketchfab.com/3d-models/minecraft-player-rigged-96285d24681446f0b6273b1a68f49bca
+* author:	lewisglasgow2005 (https://sketchfab.com/lewisglasgow2005)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Minecraft Player Rigged" (https://sketchfab.com/3d-models/minecraft-player-rigged-96285d24681446f0b6273b1a68f49bca) by lewisglasgow2005 (https://sketchfab.com/lewisglasgow2005) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
